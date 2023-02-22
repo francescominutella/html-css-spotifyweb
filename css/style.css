@@ -14,16 +14,20 @@ body {
     --secondary: rgba(20, 25, 34, 1);
     --light: rgba(255, 255, 255, 1);
     --primary: rgba(8, 11, 18, 1);
+    --txt: rgba(126, 128, 133, 1);
+    --icon: rgba(126, 128, 133, 1);
 }
 
 a{
     text-decoration: none;
-    color: gray;
+    color: var(--icon);
 }
 ul li{
     list-style: none;
 }
-
+img{
+    max-width: 100%;
+}
 
 /* endregion UTILITY */
 
@@ -38,8 +42,30 @@ ul li{
 }
 
 [class^="sidebarr_up"] {
-    color: gray;
+    color: var(--icon);
 }
+
+#recently_played .row .card h4{
+    color: var(--light);
+}
+#recently_played .row .card span{
+    color: var(--txt);
+}
+
+
+
+/* #region GRID */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_6 {
+    width: calc(100% / 12 * 6);
+}
+
+/* #endregion GRID */
 
 /* #endregion COMMON */
 
@@ -84,12 +110,12 @@ ul li{
 }
 
 .sidebarr_up a{
-    color: gray;
+    color: var(--icon);
 }
 
 .playlist{
     max-width: 100%;
-    height: 50%;
+    height: 25%;
     overflow-y: auto;
   }
 
@@ -99,8 +125,9 @@ ul li{
 
 .top > .content {
     width: calc(100% - 80px);
-    height: calc(100vh - -162px);
+    height: calc(100vh); /* MOBILE_1st */
     background-color: var(--secondary);
+    padding: 1rem;
 }
 
 .content ul li{
@@ -113,6 +140,15 @@ ul li{
     margin-top: 5rem;
 }
 
+/* #region recently_played*/
+
+.recently_played h3{
+    color: var(--light);
+}
+
+
+
+/* #endregion recently_played*/
 
 /* #endregion content */
 
@@ -144,6 +180,27 @@ footer.bottom {
     .top>.content {
         width: clac(100% - 200px)
     }
+
+    .col_md_2 {
+        width: calc(100% / 12 * 2);
+    }
+
+    .col_md_3 {
+        width: calc(100% / 12 * 3);
+    }
 }
+
+@media screen and (min-width: 1200px) {
+
+    .col_lg_2 {
+        width: calc(100% / 12 * 2);
+    }
+
+    .col_lg_3 {
+        width: calc(100% / 12 * 3);
+    }
+
+}
+
 
 /* #endregion MEDIAquery */
