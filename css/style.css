@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.d_flex{
+    display: flex;
+}
+
+
 .debug .top{
     background-color:darkblue ;
 }
@@ -12,10 +17,49 @@
     background-color:chartreuse ;
 }
 
+.debug .sidebarr{
+    background-color:darkcyan ;
+}
+
+.debug .content{
+    background-color: darkslateblue;
+}
+
+
+/* #region TOP */
+
 .top{
     height: calc(100vh - 80px);
 }
 
+.top > .sidebarr{
+    width: 80px;
+}
+
+.top > .content{
+    width: calc(100% - 80px);
+}
+
+
+/* #region TOP */
+
+
+/* #region FOOTER */
+
 footer.bottom{
     height: 80px;
+}
+/* #endregion FOOTER */
+
+
+@media screen and (min-width: 768px) {
+
+    .top > .sidebarr
+    {
+        width: 200px;
+    }
+    .top > .content
+    {
+        width: clac(100% - 200px)
+    }
 }
