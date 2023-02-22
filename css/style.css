@@ -9,6 +9,13 @@ body {
     font-family: 'Circular Std', sans-serif;
 }
 
+:root {
+    --volume: rgba(128, 179, 43, 1);
+    --secondary: rgba(20, 25, 34, 1);
+    --light: rgba(255, 255, 255, 1);
+    --primary: rgba(8, 11, 18, 1);
+}
+
 /* endregion UTILITY */
 
 /* #region COMMON */
@@ -16,7 +23,8 @@ body {
 .d_flex {
     display: flex;
 }
-.dir_column{
+
+.dir_column {
     flex-direction: column;
 }
 
@@ -26,16 +34,16 @@ body {
 
 
 .debug .sidebarr_up {
-    background-color:darkblue;
+    background-color: darkblue;
 }
 
 .debug .sidebarr_down {
-    background-color:darkslateblue;
+    background-color: darkslateblue;
     border: 1px solid white;
 }
 
 .debug .content {
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
 }
 
 .debug footer.bottom {
@@ -58,9 +66,13 @@ body {
 
 .top .sidebarr_up {
     height: calc(100% - 50px);
+    background-color: var(--primary);
 }
+
 .top .sidebarr_down {
     height: 50px;
+    background-color: var(--primary);
+
 }
 
 
