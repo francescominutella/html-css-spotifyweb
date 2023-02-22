@@ -1,4 +1,4 @@
-/* region UTILITY */
+/* #region UTILITY */
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ img {
     max-width: 100%;
 }
 
-/* endregion UTILITY */
+/* #endregion UTILITY */
 
 /* #region COMMON */
 
