@@ -94,18 +94,23 @@ ul li{
 
 /* #endregion sidebarrUP */
 
+/* #region content */
+
+.top > .content {
+    width: calc(100% - 80px);
+    background-color: var(--secondary);
+}
+
+
+
+
+/* #endregion content */
+
 
 .top .sidebarr_down {
     height: 50px;
     background-color: var(--primary);
 }
-
-
-.top>.content {
-    width: calc(100% - 80px);
-}
-
-
 
 /* #region TOP */
 
