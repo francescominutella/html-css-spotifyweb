@@ -28,6 +28,12 @@ body {
     flex-direction: column;
 }
 
+[class^="sidebarr_up"]{
+    color: gray;
+}
+
+
+
 /* #endregion COMMON */
 
 /* #region DEBUG */
@@ -64,10 +70,18 @@ body {
     width: 80px;
 }
 
+/* #region sidebarrUP */
+
 .top .sidebarr_up {
     height: calc(100% - 50px);
     background-color: var(--primary);
 }
+
+
+
+
+/* #endregion sidebarrUP */
+
 
 .top .sidebarr_down {
     height: 50px;
