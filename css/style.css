@@ -8,7 +8,7 @@
     background-color:darkblue ;
 }
 
-.debug footer .bottom{
+.debug footer.bottom{
     background-color:chartreuse ;
 }
 
@@ -16,6 +16,6 @@
     height: calc(100vh - 80px);
 }
 
-footer .bottom{
+footer.bottom{
     height: 80px;
 }
