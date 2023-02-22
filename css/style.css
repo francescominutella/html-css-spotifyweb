@@ -18,14 +18,16 @@ body {
     --icon: rgba(126, 128, 133, 1);
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--icon);
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -45,18 +47,18 @@ img{
     color: var(--icon);
 }
 
-#recently_played .row .card h4{
+#recently_played .row .card h4 {
     color: var(--light);
 }
-#recently_played .row .card span{
+
+#recently_played .row .card span {
     color: var(--txt);
 }
 
 
-
 /* #region GRID */
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
@@ -89,7 +91,7 @@ img{
     background-color: chartreuse;
 }
 
-.sidebarr_up .playlist{
+.sidebarr_up .playlist {
     border: 1px solid gray;
 }
 
@@ -97,7 +99,7 @@ img{
 
 /* #region TOP */
 
-.top > .sidebarr {
+.top>.sidebarr {
     width: 80px;
 }
 
@@ -109,32 +111,31 @@ img{
     padding: 1rem;
 }
 
-.sidebarr_up a{
+.sidebarr_up a {
     color: var(--icon);
 }
 
-.playlist{
+.playlist {
     max-width: 100%;
     height: 25%;
     overflow-y: auto;
-  }
+}
 
 /* #endregion sidebarrUP */
 
 /* #region content */
 
-.top > .content {
+.top>.content {
     width: calc(100% - 80px);
-    height: calc(100vh); /* MOBILE_1st */
     background-color: var(--secondary);
     padding: 1rem;
 }
 
-.content ul li{
+.content ul li {
     padding: 0.5rem;
 }
 
-.content nav{
+.content nav {
     display: flex;
     justify-content: center;
     margin-top: 5rem;
@@ -142,7 +143,7 @@ img{
 
 /* #region recently_played*/
 
-.recently_played h3{
+.recently_played h3 {
     color: var(--light);
 }
 
@@ -178,7 +179,8 @@ footer.bottom {
     }
 
     .top>.content {
-        width: clac(100% - 200px)
+        width: clac(100% - 200px);
+        height: 100vh;
     }
 
     .col_md_2 {
