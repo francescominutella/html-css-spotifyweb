@@ -99,7 +99,7 @@ ul li{
 
 .top > .content {
     width: calc(100% - 80px);
-    height: calc(100vh - 50px);
+    height: calc(100vh - -162px);
     background-color: var(--secondary);
 }
 
