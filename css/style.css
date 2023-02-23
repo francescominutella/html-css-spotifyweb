@@ -54,7 +54,9 @@ img {
 #recently_played .row .card span {
     color: var(--txt);
 }
-
+.card{
+    padding: 0 0.5rem;
+}
 
 /* #region GRID */
 
