@@ -35,8 +35,6 @@ img {
     padding: 1rem;
 }
 
-
-
 #popular .radius img{
     border-radius: 50%;
 }
@@ -54,12 +52,16 @@ img {
 .dir_column {
     flex-direction: column;
 }
+.txt_center{
+    text-align: center;
+}
+
 
 .inner{
     overflow-y: auto;
 }
 
-[class^="sidebar_up"] {
+[class^="sidebar"] {
     color: var(--icon);
 }
 
@@ -92,6 +94,8 @@ img {
 .card{
     padding: 0 0.5rem;
 }
+
+
 
 /* #region GRID */
 
@@ -128,9 +132,6 @@ img {
     background-color: chartreuse;
 }
 
-.sidebar_up .playlist {
-    border: 1px solid gray;
-}
 
 /* #endregion DEBUG */
 
@@ -148,26 +149,42 @@ img {
 
 .sidebar{
     width: 60px;
-    background-color: var(--color_darker);
+    background-color: var(--primary);
     align-items: center;
     justify-content: space-between;
 }
 
+.sidebar .lg_sidbar_up img{
+    width: 60px;
+}
+.sidebar .sx_sidbar_up img{
+    width: 30px;
+}
 
-.sidebar_up a {
+.lg_sidebar_up{
+    display: none;
+}
+
+.lg_sidebar_down{
+    display: none;
+}
+
+.playlist  li{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: var(--light);
+}
+
+.sidebar a {
     color: var(--icon);
 }
 
-.playlist {
+.playlist{
     max-width: 100%;
     height: 25%;
     overflow-y: auto;
 }
 
-.top .sidebar_down {
-    height: 100%;
-    background-color: var(--primary);
-}
 
 
 /* #region content */
