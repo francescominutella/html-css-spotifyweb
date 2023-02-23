@@ -132,7 +132,6 @@ img {
 .top .content {
     width: calc(100% - 80px);
     background-color: var(--secondary);
-    overflow-y: hidden;
     overflow-y: auto;
 }
 
