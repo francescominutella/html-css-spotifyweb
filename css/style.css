@@ -145,7 +145,7 @@ img {
 }
 
 .top .sidebarr_up {
-    height: calc(100% - 80px);
+    height:100%;
     background-color: var(--primary);
     padding: 1rem;
 }
@@ -161,7 +161,7 @@ img {
 }
 
 .top .sidebarr_down {
-    height: 50px;
+    height: 100%;
     background-color: var(--primary);
 }
 
@@ -225,7 +225,7 @@ footer.bottom {
 
 @media screen and (min-width: 568px){
     .sidebarr{
-        width: 200px;
+        max-width: 200px;
     }
 }
 
