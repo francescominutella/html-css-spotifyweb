@@ -59,7 +59,7 @@ img {
     overflow-y: auto;
 }
 
-[class^="sidebarr_up"] {
+[class^="sidebar_up"] {
     color: var(--icon);
 }
 
@@ -111,11 +111,11 @@ img {
 /* #region DEBUG */
 
 
-.debug .sidebarr_up {
+.debug .sidebar_up {
     background-color: darkblue;
 }
 
-.debug .sidebarr_down {
+.debug .sidebar_down {
     background-color: darkslateblue;
     border: 1px solid white;
 }
@@ -128,7 +128,7 @@ img {
     background-color: chartreuse;
 }
 
-.sidebarr_up .playlist {
+.sidebar_up .playlist {
     border: 1px solid gray;
 }
 
@@ -140,17 +140,21 @@ img {
     height: calc(100vh - 80px);
 }
 
-.top>.sidebarr {
-    width: 80px;
-}
-
-.top .sidebarr_up {
+.top .sidebar_up {
     height:100%;
     background-color: var(--primary);
     padding: 1rem;
 }
 
-.sidebarr_up a {
+.sidebar{
+    width: 60px;
+    background-color: var(--color_darker);
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sidebar_up a {
     color: var(--icon);
 }
 
@@ -160,7 +164,7 @@ img {
     overflow-y: auto;
 }
 
-.top .sidebarr_down {
+.top .sidebar_down {
     height: 100%;
     background-color: var(--primary);
 }
@@ -224,15 +228,15 @@ footer.bottom {
 /* #region MEDIAquery */
 
 @media screen and (min-width: 568px){
-    .sidebarr{
-        max-width: 200px;
+    .sidebar{
+        width: 200px;
     }
 }
 
 
 @media screen and (min-width: 768px) {
 
-    .top>.sidebarr {
+    .top>.sidebar {
         width: 200px;
     }
 
