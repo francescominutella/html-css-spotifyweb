@@ -68,6 +68,14 @@ img {
     color: var(--light);
     padding: 0 0.5rem;
 }
+#popular span {
+    color: var(--txt);
+    padding: 0 0.5rem;
+}
+#popular h3 {
+    color: var(--light);
+    padding: 0 0.5rem;
+}
 
 .card{
     padding: 0 0.5rem;
