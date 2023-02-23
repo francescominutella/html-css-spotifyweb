@@ -145,7 +145,7 @@ img {
 }
 
 .top .sidebarr_up {
-    height: calc(100% - 50px);
+    height: calc(100% - 80px);
     background-color: var(--primary);
     padding: 1rem;
 }
