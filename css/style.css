@@ -109,7 +109,7 @@ img {
     width: 80px;
 }
 
-/* #region sidebarrUP */
+/* #region sidebarr */
 
 .top .sidebarr_up {
     height: calc(100% - 50px);
@@ -127,7 +127,12 @@ img {
     overflow-y: auto;
 }
 
-/* #endregion sidebarrUP */
+.top .sidebarr_down {
+    height: 50px;
+    background-color: var(--primary);
+}
+
+/* #endregion sidebarr */
 
 /* #region content */
 
@@ -168,19 +173,19 @@ img {
     color: var(--light);
 }
 
-
-
 /* #endregion recently_played*/
 
 /* #endregion content */
 
+/* #region create */
 
-.top .sidebarr_down {
-    height: 50px;
-    background-color: var(--primary);
-}
 
-/* #region TOP */
+
+
+/* #endregion create */
+
+
+/* #endregion TOP */
 
 
 /* #region FOOTER */
