@@ -43,17 +43,32 @@ img {
     flex-direction: column;
 }
 
+.inner{
+    overflow-y: auto;
+}
+
 [class^="sidebarr_up"] {
     color: var(--icon);
 }
 
 #recently_played .row .card h4 {
     color: var(--light);
+    padding: 0 0.5rem;
 }
 
 #recently_played .row .card span {
     color: var(--txt);
+    padding: 0 0.5rem;
 }
+#create span {
+    color: var(--txt);
+    padding: 0 0.5rem;
+}
+#create h3 {
+    color: var(--light);
+    padding: 0 0.5rem;
+}
+
 .card{
     padding: 0 0.5rem;
 }
@@ -139,7 +154,6 @@ img {
 .top .content {
     width: calc(100% - 80px);
     background-color: var(--secondary);
-    
 }
 
 .content ul li {
@@ -159,10 +173,6 @@ img {
     top: 0;
 }
 
-.inner{
-    overflow-y: auto;
-}
-
 
 /* #region recently_played*/
 #recently_played{
@@ -171,6 +181,7 @@ img {
 
 #recently_played h3 {
     color: var(--light);
+    padding: 0 0.5rem;
 }
 
 /* #endregion recently_played*/
@@ -178,6 +189,9 @@ img {
 /* #endregion content */
 
 /* #region create */
+#create{
+    padding: 1rem;
+}
 
 
 
