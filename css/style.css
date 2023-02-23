@@ -31,9 +31,17 @@ img {
     max-width: 100%;
 }
 
+#create #popular #{
+    padding: 1rem;
+}
+
+
+
 #popular .radius img{
     border-radius: 50%;
 }
+
+
 
 /* #endregion UTILITY */
 
@@ -185,7 +193,6 @@ img {
     top: 0;
 }
 
-
 /* #region recently_played*/
 #recently_played{
     padding: 1rem;
@@ -197,22 +204,6 @@ img {
 }
 
 /* #endregion recently_played*/
-
-/* #region create */
-#create{
-    padding: 1rem;
-}
-
-/* #endregion create */
-
-#create{
-    padding: 1rem;
-}
-
-
-/* #endregion content */
-
-
 
 
 
