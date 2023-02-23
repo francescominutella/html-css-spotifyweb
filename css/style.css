@@ -125,10 +125,12 @@ img {
 
 /* #region content */
 
-.top>.content {
+.top .content {
     width: calc(100% - 80px);
     background-color: var(--secondary);
     padding: 1rem;
+    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .content ul li {
@@ -166,7 +168,10 @@ img {
 
 footer.bottom {
     height: 80px;
+    position: sticky;
 }
+
+
 
 /* #endregion FOOTER */
 
@@ -181,6 +186,7 @@ footer.bottom {
     .top>.content {
         width: clac(100% - 200px);
         height: 100vh;
+        overflow-y: auto;
     }
 
     .col_md_2 {
