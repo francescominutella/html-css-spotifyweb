@@ -144,8 +144,6 @@ img {
     width: 80px;
 }
 
-/* #region sidebarr */
-
 .top .sidebarr_up {
     height: calc(100% - 50px);
     background-color: var(--primary);
@@ -167,7 +165,6 @@ img {
     background-color: var(--primary);
 }
 
-/* #endregion sidebarr */
 
 /* #region content */
 
@@ -224,6 +221,9 @@ footer.bottom {
 
 
 /* #region MEDIAquery */
+
+
+
 @media screen and (min-width: 768px) {
 
     .top>.sidebarr {
