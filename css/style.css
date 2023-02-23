@@ -132,7 +132,7 @@ img {
 .top .content {
     width: calc(100% - 80px);
     background-color: var(--secondary);
-    overflow-y: auto;
+    
 }
 
 .content ul li {
@@ -153,7 +153,7 @@ img {
 }
 
 .inner{
-    height: auto;
+    overflow-y: auto;
 }
 
 
@@ -204,7 +204,6 @@ footer.bottom {
     .top>.content {
         width: clac(100% - 200px);
         height: 100vh;
-        overflow-y: auto;
     }
 
     .col_md_2 {
