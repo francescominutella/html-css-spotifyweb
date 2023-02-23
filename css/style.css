@@ -232,7 +232,7 @@ footer.bottom {
 
     .top>.content {
         width: clac(100% - 200px);
-        height: 100vh;
+        height: calc(100vh - 80px);
     }
 
     .col_md_2 {
