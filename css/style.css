@@ -99,6 +99,10 @@ img {
 
 /* #region TOP */
 
+.top{
+    height: calc(100vh - 80px);
+}
+
 .top>.sidebarr {
     width: 80px;
 }
