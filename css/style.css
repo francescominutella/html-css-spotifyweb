@@ -213,6 +213,7 @@ footer.bottom {
     height: 80px;
     position: sticky;
     bottom: 0;
+    background-color: var(--primary);
 }
 
 
@@ -222,6 +223,11 @@ footer.bottom {
 
 /* #region MEDIAquery */
 
+@media screen and (min-width: 568px){
+    .sidebarr{
+        width: 200px;
+    }
+}
 
 
 @media screen and (min-width: 768px) {
