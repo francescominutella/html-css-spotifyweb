@@ -183,7 +183,9 @@ img {
     font-size: 1rem;
     color: var(--light);
 }
-
+.sidebar_playlist{
+    display: none;
+}
 
 
 /* #region content */
@@ -266,6 +268,7 @@ footer.bottom {
     .sx_sidbar_down{
         display: none;
     }
+
 }
 
 
