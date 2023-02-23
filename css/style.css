@@ -152,6 +152,9 @@ img {
     top: 0;
 }
 
+.inner{
+    height: auto;
+}
 
 
 /* #region recently_played*/
