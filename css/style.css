@@ -169,11 +169,6 @@ img {
     display: none;
 }
 
-.playlist  li{
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    color: var(--light);
-}
 
 .sidebar a {
     color: var(--icon);
@@ -183,6 +178,9 @@ img {
     max-width: 100%;
     height: 25%;
     overflow-y: auto;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: var(--light);
 }
 
 
@@ -247,6 +245,10 @@ footer.bottom {
 @media screen and (min-width: 568px){
     .sidebar{
         width: 200px;
+    }
+    .
+    .sx_sidbar_up, .sx_sidbar_down{
+        display: none;
     }
 }
 
