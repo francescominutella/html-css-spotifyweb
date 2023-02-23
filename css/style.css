@@ -132,7 +132,6 @@ img {
 .top .content {
     width: calc(100% - 80px);
     background-color: var(--secondary);
-    padding: 0 1rem;
     overflow-y: hidden;
     overflow-y: auto;
 }
@@ -156,8 +155,11 @@ img {
 
 
 /* #region recently_played*/
+#recently_played{
+    padding: 1rem;
+}
 
-.recently_played h3 {
+#recently_played h3 {
     color: var(--light);
 }
 
