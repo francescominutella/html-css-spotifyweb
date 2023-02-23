@@ -150,6 +150,7 @@ img {
     height: 80px;
     background-color: var(--primary);
     position: sticky;
+    top: 0;
 }
 
 
@@ -183,6 +184,7 @@ img {
 footer.bottom {
     height: 80px;
     position: sticky;
+    bottom: 0;
 }
 
 
