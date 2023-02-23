@@ -132,7 +132,7 @@ img {
 .top .content {
     width: calc(100% - 80px);
     background-color: var(--secondary);
-    padding: 1rem;
+    padding: 0 1rem;
     overflow-y: hidden;
     overflow-y: auto;
 }
@@ -146,6 +146,14 @@ img {
     justify-content: center;
     margin-top: 5rem;
 }
+
+.content_top{
+    height: 80px;
+    background-color: var(--primary);
+    position: sticky;
+}
+
+
 
 /* #region recently_played*/
 
