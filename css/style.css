@@ -154,12 +154,10 @@ img {
     padding: 1rem;
 }
 
-.lg_sidbar_up img{
+.sidebar img{
     width: 30px;
 }
-.sx_sidbar_up img{
-    width: 10px;
-}
+
 .sx_sidebar_down .sx_icon_sidebar{
     color: var(--txt);
     width: 20px;
@@ -254,10 +252,19 @@ footer.bottom {
     .sidebar{
         width: 200px;
     }
-    .sidebar_up, .sidebar_down, .sidebar_playlist{
+    .sidebar_up{
         display: block;
     }
-    .sx_sidbar_up, .sx_sidbar_down{
+    .sidebar_down{
+        display: block;
+    }
+    .sidebar_playlist{
+        display: block;
+    }
+    .sx_sidbar_up{
+        display: none;
+    }
+    .sx_sidbar_down{
         display: none;
     }
 }
