@@ -16,14 +16,21 @@ body {
     --primary: rgba(8, 11, 18, 1);
     --txt: rgba(126, 128, 133, 1);
     --icon: rgba(126, 128, 133, 1);
-    --footer:rgba(40, 40, 40, 1);;
+    --footer: rgba(40, 40, 40, 1);
+    ;
 }
 
 a {
     text-decoration: none;
     color: var(--txt);
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--light);
 }
 
@@ -35,11 +42,11 @@ img {
     max-width: 100%;
 }
 
-#create #popular{
+#create #popular {
     padding: 1rem;
 }
 
-#popular .radius img{
+#popular .radius img {
     border-radius: 50%;
 }
 
@@ -52,23 +59,29 @@ img {
 .d_flex {
     display: flex;
 }
+
 .dir_column {
     flex-direction: column;
 }
-.txt_center{
+
+.txt_center {
     text-align: center;
 }
-.txt_align_center{
+
+.txt_align_center {
     text-align: center;
 }
-.txt_align_left{
+
+.txt_align_left {
     text-align: left;
 }
+
 .f_wrap {
     flex-wrap: wrap;
 }
 
-.sidebar_up li,.sidebar_down li{
+.sidebar_up li,
+.sidebar_down li {
     padding: 1rem 1.5rem;
 }
 
@@ -77,7 +90,7 @@ img {
     border-radius: 50px;
     color: var(--light);
     border: 1px solid white;
-} 
+}
 
 #recently_played .row .card h4 {
     color: var(--light);
@@ -88,24 +101,28 @@ img {
     color: var(--txt);
     padding: 0 0.5rem;
 }
+
 #create span {
     color: var(--txt);
     padding: 0 0.5rem;
 }
+
 #create h3 {
     color: var(--light);
     padding: 0 0.5rem;
 }
+
 #popular span {
     color: var(--txt);
     padding: 0 0.5rem;
 }
+
 #popular h3 {
     color: var(--light);
     padding: 0 0.5rem;
 }
 
-.card{
+.card {
     padding: 0 0.5rem;
 }
 
@@ -150,47 +167,51 @@ img {
 
 /* #region TOP */
 
-.top{
+.top {
     height: calc(100vh - 80px);
 }
 
-.sidebar_top{
+.sidebar_top {
     width: 60px;
     background-color: var(--primary);
     align-items: center;
-    justify-content: space-between;/* TODO_review this rule */
+    justify-content: space-between;
+    /* TODO_review this rule */
     flex-direction: column;
 }
 
-.sidebar_top li, .sidebar a{
+.sidebar_top li,
+.sidebar a {
     color: var(--icon);
     padding: 0.5rem 0;
 }
-.sidebar_top img{
+
+.sidebar_top img {
     width: 30px;
 }
 
-.sidebar_up{
+.sidebar_up {
     display: none;
 }
-.logo{
+
+.logo {
     padding: 1rem 0;
     width: 100px;
 }
 
-.sidebar_playlist{
+.sidebar_playlist {
     display: none;
 }
 
-.sidebar_playlist a{
+.sidebar_playlist a {
     padding: 0.5rem;
 }
 
-.sidebar_playlist{
+.sidebar_playlist {
     width: 200px;
 }
 
-.playlist{
+.playlist {
     width: 180px;
     height: calc(100vh - 500px);
     overflow-y: auto;
@@ -198,16 +219,17 @@ img {
     font-size: 1rem;
     color: var(--light);
 }
-.sidebar_down{
+
+.sidebar_down {
     display: none;
 }
 
-.sidebar_down{
+.sidebar_down {
     width: 100%;
     height: 80px;
 }
 
-.user{
+.user {
     width: 40px;
     border-radius: 50%;
     background-color: var(--txt);
@@ -222,7 +244,7 @@ img {
     background-color: var(--secondary);
 }
 
-.inner{
+.inner {
     overflow-y: auto;
 }
 
@@ -235,25 +257,27 @@ img {
     left: 0;
     background-color: var(--primary);
 }
+
 .content_top .btn {
     display: inline-block;
     margin-right: 0.5rem;
     font-size: 1rem;
 }
 
-.list_recent{
+.list_recent {
     justify-content: center;
     margin-top: 5rem;
     padding: 0.5rem;
     color: var(--txt);
 }
-.list_recent li{
+
+.list_recent li {
     padding: 1rem;
 }
 
 
 /* #region recently_played*/
-#recently_played{
+#recently_played {
     padding: 1rem;
 }
 
@@ -278,8 +302,20 @@ img {
     background-color: var(--footer);
 }
 
+.bottom_play_left {
+    align-items: center;
+}
 
+.bottom_play .row {
+    height: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
 
+.music_img {
+    width: 40px;
+    padding: 0.5rem 0.5rem;
+}
 
 
 /* #endregion FOOTER */
@@ -287,28 +323,34 @@ img {
 
 /* #region MEDIAquery */
 
-@media screen and (min-width: 568px){
-    .content{
+@media screen and (min-width: 568px) {
+    .content {
         width: calc(100% - 200px);
-        overflow-y:auto ;
+        overflow-y: auto;
     }
-    .sidebar_top{
+
+    .sidebar_top {
         width: 200px;
         align-items: start;
     }
-    .sidebar_up{
+
+    .sidebar_up {
         display: block;
     }
-    .sidebar_down{
+
+    .sidebar_down {
         display: block;
     }
-    .sidebar_playlist{
+
+    .sidebar_playlist {
         display: block;
     }
-    .xs_sidebar_up{
+
+    .xs_sidebar_up {
         display: none;
     }
-    .xs_sidebar_down{
+
+    .xs_sidebar_down {
         display: none;
     }
 }
@@ -331,6 +373,11 @@ img {
 
     .col_md_3 {
         width: calc(100% / 12 * 3);
+    }
+
+    .music_img {
+        width: 60px;
+        padding: 0.5rem 0.5rem;
     }
 }
 
