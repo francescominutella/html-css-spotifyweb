@@ -150,19 +150,28 @@ img {
     flex-direction: column;
 }
 
-
 .top .sidebar_up {
     background-color: var(--primary);
     padding: 1rem;
 }
 
+.lg_sidebar_up .logo{
+    width: auto;
+}
+
+
 .sidebar img{
     width: 30px;
+}
+
+.sidebar a {
+    color: var(--icon);
 }
 
 .sx_sidebar_down .sx_icon_sidebar{
     color: var(--txt);
     width: 20px;
+    
 }
 
 .lg_sidebar_up{
@@ -173,10 +182,6 @@ img {
     display: none;
 }
 
-
-.sidebar a {
-    color: var(--icon);
-}
 
 .playlist{
     max-width: 100%;
@@ -255,8 +260,9 @@ footer.bottom {
     }
     .sidebar{
         width: 200px;
+        align-items: start;
     }
-    .sidebar_up{
+    .lg_sidebar_up{
         display: block;
     }
     .sidebar_down{
