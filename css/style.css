@@ -310,11 +310,36 @@ img {
     height: 100%;
     flex-wrap: nowrap;
     justify-content: space-around;
+    margin: 0;
 }
 
 .music_img {
     width: 40px;
     padding: 0.5rem 0.5rem;
+}
+
+.player{
+    justify-content: center;
+    padding: 1rem;
+}
+
+.player .fa-circle-play{
+    color: var(--light);
+}
+
+.player i{
+    padding: 0 0.8rem;
+    color: var(--txt);
+}
+
+.timebar{
+    color: var(--light);
+}
+.past_time{
+    width: 30%;
+    height: 3px;
+    background-color: var(--light);
+    border-radius: 50px;
 }
 
 
