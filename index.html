@@ -17,10 +17,11 @@
 
         <section class="top d_flex">
             <section class="sidebar d_flex">
-                <div class="sidebar_">
+                <div class="sidebar_top">
+
                     <ul class="sidebar_up">
-                        <li><div class="logo"><img src="./assets/img/logo.svg"
-                                    alt=""></div></li>
+                        <li class="logo"><img src="./assets/img/logo.svg"
+                                alt=""></li>
                         <li class="home"><a href="#"><img
                                     src="./assets/spotify/img/home.svg" alt="">
                             </a>Home</li>
@@ -31,7 +32,7 @@
                                     src="./assets/spotify/img/libreria.svg"
                                     alt=""> </a>La tua libreria</li>
                     </ul>
-                    <!-- LG sidebar -->
+                    <!-- sidebarUP -->
 
                     <ul class="xs_sidebar_up">
                         <li><a href="#"><img
@@ -48,8 +49,9 @@
                     </ul>
 
                     <!-- XS sidebar -->
-                    <div class="sidebar_playlist">
-                        <h5>PLAYLIST</h5>
+                    <section class="sidebar_playlist">
+
+                        <h5 class="txt_align_left">PLAYLIST</h5>
                         <a href=""><i class="fa-sharp fa-solid fa-square-plus"></i>
                             Crea playlist</a>
 
@@ -72,73 +74,58 @@
                                 <li>Nome Playlist</li>
                             </ul>
                         </div>
-                    </div>
+                    </section>
                     <!-- PLAYLIST -->
                 </div>
-                <!-- sidebarUP -->
+                <!-- sidebarTOP -->
 
 
-                <div class="sidebar_down">
+                <div class="sidebar_bottom">
 
-                    <div class="install">
-                        <a href="">Instal app</a>
-                    </div>
-                    <div class="user">
+                    <ul class="sidebar_down">
+                        <li class="download txt_center"><a href="#"><img
+                                    src="./assets/spotify/img/download.svg"
+                                    alt="download"> Installa
+                                app</a></li>
+                        <li class="user txt_center"><a href="#"><img
+                                    src="./assets/spotify/img/profile.svg"
+                                    alt="profile
+                                    pic"> John Doe</a>
+                        </li>
+                    </ul>
+                    <!-- sidbarDOWN -->
 
-                    </div>
+                    <ul class="xs_sidebar_down">
+                        <li class="download txt_center"><a href="#"><img
+                                    src="./assets/spotify/img/download.svg"
+                                    alt="download"></a></li>
+                        <li class="user txt_center"><a href="#"><img
+                                    src="./assets/spotify/img/profile.svg"
+                                    alt="profile pic"></a></li>
+                    </ul>
+                    <!-- XS sidebar-->
 
-                    <div class="lg_sidebar_down">
-                        <nav>
-                            <ul>
-                                <li class="txt_center"><a href=""><img
-                                            src="./assets/spotify/img/download.svg"
-                                            alt=""></a>Installa app</li>
-                                <li><a href=""><img
-                                            src="./assets/spotify/img/profile.svg"
-                                            alt=""></a>John Doe</li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!-- LG sidbar -->
-                    <div class="sx_sidebar_down">
-                        <nav>
-                            <ul class="txt_center sx_icon_sidebar">
-                                <li><a href=""><img
-                                            src="./assets/spotify/img/download.svg"
-                                            alt=""></a></li>
-                                <li><a href=""><img
-                                            src="./assets/spotify/img/profile.svg"
-                                            alt=""></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!-- SX sidbar -->
                 </div>
                 <!-- sidebarDOWN -->
 
             </section>
             <!-- SIDEBAR -->
 
-
-
-
             <section class="content d_flex dir_column">
-                <div class="content_top">
+                <div class="content_top d_flex">
                     <a class="btn" href="#">EFFETTUA L'UPGRADE</a>
                 </div>
 
                 <section class="inner">
-                    <nav>
-                        <ul class="d_flex">
-                            <li><a href="">IN EVIDENZA</a> </li>
-                            <li><a href="">PODCAST</a> </li>
-                            <li><a href="">CLASSIFICHE</a> </li>
-                            <li> <a href="">GENERI E MOOD</a> </li>
-                            <li> <a href="">NUOVE USCITE</a> </li>
-                            <li> <a href="">SCOPRI</a> </li>
-                        </ul>
-                    </nav>
-                    <!-- NAVbar_recently -->
+                    <ul class="list_recent d_flex f_wrap">
+                        <li><a href="">IN EVIDENZA</a> </li>
+                        <li><a href="">PODCAST</a> </li>
+                        <li><a href="">CLASSIFICHE</a> </li>
+                        <li><a href="">GENERI E MOOD</a> </li>
+                        <li><a href="">NUOVE USCITE</a> </li>
+                        <li><a href="">SCOPRI</a> </li>
+                    </ul>
+                    <!-- list_recently -->
 
                     <section id="recently_played">
 
@@ -279,9 +266,23 @@
 
         </section>
 
-        <footer class="bottom">
+        <section class="bottom_play">
+            <div class="row">
+                <div class="col_4 col_lg_3 ">
+                    <div class="card_listen">
+                        <div class="row">
+                            <div class="music_img">
 
-        </footer>
+                            </div>
+                            <div class="music_artist">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </body>
 </html>
