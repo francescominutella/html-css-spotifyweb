@@ -63,6 +63,9 @@ img {
 [class^="sidebar"] {
     color: var(--icon);
 }
+.home, .search .library {
+    color: var(--txt);
+}
 
 #recently_played .row .card h4 {
     color: var(--light);
@@ -140,15 +143,15 @@ img {
 }
 
 .sidebar{
-    width: 80px;
+    width: 60px;
     background-color: var(--primary);
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
 }
 
+
 .top .sidebar_up {
-    height:100%;
     background-color: var(--primary);
     padding: 1rem;
 }
@@ -191,7 +194,7 @@ img {
 /* #region content */
 
 .top .content {
-    width: calc(100% - 80px);
+    width: calc(100% - 60px);
     background-color: var(--secondary);
 }
 
